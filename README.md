@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/3dify-project-dify-mcp-client-badge.png)](https://mseep.ai/app/3dify-project-dify-mcp-client)
+
 # dify-mcp-client
 `MCP Client` as Agent Strategy Plugin.
 > [!IMPORTANT]
