@@ -177,7 +177,7 @@ class mcpReActAgentStrategy(AgentStrategy):
 
             elif mcp_server_cmd_or_url.get("url"): # SSE or Streamable HTTP
                 url = mcp_server_cmd_or_url["url"]
-                if url.endswith("/sse"): # SSE
+                if url.endswith("/sse") or ("/sse?" in url): # SSE
                     mcp_tool_list, mcp_resource_list, mcp_prompt_list, self.mcp_sessions[mcp_server_name] = self._run_async(self._setup_sse_mcp(mcp_server_cmd_or_url))
                 elif url.endswith("/mcp"): # Stremable HTTP
                     mcp_tool_list, mcp_resource_list, mcp_prompt_list, self.mcp_sessions[mcp_server_name] = self._run_async(self._setup_streamable_http_mcp(mcp_server_cmd_or_url))

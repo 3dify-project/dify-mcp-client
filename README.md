@@ -37,6 +37,7 @@ Each `MCP client` (ReAct Agent) node can connect `MCP servers`.
   - dify_plugin(0.0.1b72→v0.1.0)
 - Add UI-TARS SDK integration for GUI automation capabilities (v0.0.5)
 - Support Streamable HTTP MCP client
+- Feat SSE param: `/sse?key=value` (v0.0.6)
 
 ## 🤖 UI-TARS Integration
 
